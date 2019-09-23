@@ -102,6 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias dj-secret="python -c 'import random; print(\"\".join([random.choice(\"abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)\") for i in range(50)]))'"
+
 export EDITOR="vim"
 
 export NVM_DIR="$HOME/.nvm"
